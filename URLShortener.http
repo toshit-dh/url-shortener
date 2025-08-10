@@ -1,0 +1,6 @@
+@URLShortener_HostAddress = http://localhost:8080
+
+GET {{URLShortener_HostAddress}}/
+Accept: application/json
+
+###
