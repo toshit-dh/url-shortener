@@ -57,7 +57,7 @@ namespace URLShortener.Controllers
             return Redirect(mapping.OriginalUrl);
         }
 
-        private string GenerateShortCode()
+        private static string GenerateShortCode()
         {
             const string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             var random = new Random();
